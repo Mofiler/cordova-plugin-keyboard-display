@@ -1,5 +1,5 @@
 //
-//  CDVRestrictKeyboards.m
+//  CDVKeyboardDisplay.m
 //  Oppa
 //
 //  Extends the AppDelegate to pop up the keyboard when programmatically focussing an input field.
@@ -15,6 +15,8 @@
 - (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
 {
   [self keyboardDisplayDoesNotRequireUserAction];
+  
+  return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 
 - (void) keyboardDisplayDoesNotRequireUserAction {
