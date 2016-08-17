@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="ccordova-plugin-display-keyboard"
+    version="1.0">
+    <name>KeyboardDisplay</name>
+    <description>Keyboard Display Plugin</description>
+    <license>MIT</license>
+    <keywords>cordova,ios,keyboard</keywords>
+
+     <!-- ios -->
+     <platform name="ios">
+         <config-file target="config.xml" parent="/*">
+           <feature name="KeyboardDisplay">
+             <param name="ios-package" value="CDVKeyboardDisplay" />
+           </feature>
+         </config-file>
+
+         <source-file src="src/ios/CDVKeyboardDisplay.m" />
+     </platform>
+</plugin>

@@ -1,0 +1,23 @@
+{
+  "name": "cordova-plugin-keyboard-display",
+  "version": "0.0.1",
+  "cordova": {
+    "id": "cordova-plugin-keyboard-display",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "description": "Allow iOS keyboard to pop up when programmatically focussing an input field",
+  "repository": "https://github.com/Mofiler/cordova-plugin-keyboard-display.git",
+  "issue": "https://github.com/Mofiler/cordova-plugin-keyboard-display/issues",
+  "keywords": [
+    "ionic",
+    "cordova",
+    "cameraroll",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "meteor"
+  ],
+  "author": "Oppa",
+  "license": "MIT"
+}
